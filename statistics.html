@@ -32,53 +32,19 @@ body {
   color: white;
 }
 
-.container { 
-  height: 600px;
-  position: relative;
-  //border: 2px solid lightgray; 
-}
-
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-  
-
-.split {
-  height: 100%;
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
   width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
-.left {
-  left: 0;
-  background-color: #111;
-}
-
-.right {
-  right: 0;
-  background-color: red;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
   
 </style>
@@ -99,23 +65,18 @@ body {
   <p>Here you can explore general trends and patterns... </p>
 </div>
 
-<div class="container">  
-<div class="split left">
-  <div class="centered">
-    <img src="img_avatar2.png" alt="Avatar woman">
-    <h2>Middle Schools</h2>
-    <p>Some text.</p>
-  </div>
-</div>
+<h2>Two Equal Columns</h2>
 
-<div class="split right">
-  <div class="centered">
-    <img src="img_avatar.png" alt="Avatar man">
-    <h2>JHigh Schools</h2>
-    <p>Some text here too.</p>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
   </div>
-</div>
-</div>  
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div> 
 
 </div>
 </body>
