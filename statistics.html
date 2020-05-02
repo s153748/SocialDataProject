@@ -46,6 +46,22 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+  
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
 </style>
 </head>
 <body>
@@ -63,7 +79,18 @@ body {
   <h2>Statistics for NYC Public Schools </h2>
   <p>Here you can explore general trends and patterns... </p>
 </div>
-
+  
+<div class="row">
+  <div class="column" style="background-color:#FFFFFF;">
+    <h2>Middle Schools</h2>
+    <p>Statistics for moddle schools</p>
+  </div>
+  <div class="column" style="background-color:#FFFFFF;">
+    <h2>High Schools</h2>
+    <p>Statistcs for high schools</p>
+  </div>
+</div>
+  
 <div class="container">
   <div class="center">
    <iframe src="data/statistics.html" height="600" width="1300"></iframe>
