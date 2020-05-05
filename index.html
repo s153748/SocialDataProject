@@ -32,20 +32,13 @@
     color: white;
   }
   
-  .container { 
-    height: 600px;
-    position: relative;
-    //border: 2px solid lightgray; 
+  .purple-square-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
-  .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+  
 </style>
 </head>
 
@@ -63,16 +56,14 @@
   <p>Choose a school to read about it... </p>
 </div>
   
-<p></p>  
+<p>hej</p>  
 
-<div class="container">
-  <div class="center">
+<div class="purple-square-container">
     <video width="1200" controls>
   	  <source src="data/intro.mp4" type="video/mp4">
   	  <source src="data/intro.ogg" type="video/ogg">
   	  Your browser does not support HTML video.
     </video>
-  </div>
 </div>
   
 </body>
