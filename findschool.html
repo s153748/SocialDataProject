@@ -65,11 +65,14 @@
   <p>Choose you preferences and find a matching school.. </p>
 </div>
   
+<script id="4029">\n  var xhr = new XMLHttpRequest()\n  xhr.responseType = \'blob\';\n  xhr.open(\'GET\', "http://localhost:5006/DetailsApp/autoload.js?bokeh-autoload-element=4029&bokeh-app-path=/DetailsApp&bokeh-absolute-url=http://localhost:5006/DetailsApp", true);\n  \n  xhr.onload = function (event) {\n    var script = document.createElement(\'script\'),\n    src = URL.createObjectURL(event.target.response);\n    script.src = src;\n    document.body.appendChild(script);\n  };\nxhr.send();\n</script>
+  
 <script
     src="https://demo.bokeh.org/sliders/autoload.js?bokeh-autoload-element=1000&bokeh-app-path=/sliders&bokeh-absolute-url=https://demo.bokeh.org/sliders"
     id="1000">
 </script>
   
+
 <div class="container">
   <div class="center">
     <iframe src="data/find_school.html" height="600" width="1300"></iframe>
