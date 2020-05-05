@@ -32,20 +32,12 @@ body {
   color: white;
 }
 
-.container { 
-  height: 600px;
-  position: relative;
-  //border: 2px solid lightgray; 
-}
-
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+  .centered-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 </style>
 </head>
 <body>
@@ -62,10 +54,8 @@ body {
   <p>Choose a variable and view the distribution in the different boroughs and schools districts</p>
 </div>
 
-<div class="container">
-  <div class="center">
-   <iframe src="data/MAP_DISTRICT.html" height="650" width="1200"></iframe>
-  </div>
+<div class="centered-container">
+  <iframe src="data/MAP_DISTRICT.html" height="650" width="1200"></iframe>
 </div>
 </body>
 </html>
