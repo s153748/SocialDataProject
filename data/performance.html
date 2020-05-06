@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.1.min.js" integrity="sha384-JpP8FXbgAZLkfur7LiK3j9AGBhHNIvF742meBJrjO2ShJDhCG2I1uVvW+0DUtrmc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="b109ce89-3868-4064-87c2-b7cd9be6c27a" data-root-id="11984"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="15152">
+          {"2014f7fe-cc26-45b0-8f15-24c8e71e1d8b":{"roots":{"references":[{"attributes":{"children":[[{"id":"2722"},0,0],[{"id":"2747"},0,1]]},"id":"11984","type":"GridBox"},{"attributes":{"axis_label_text_font_size":"25pt","formatter":{"id":"3667"},"major_label_orientation":1,"major_tick_line_color":null,"minor_tick_line_color":null,"ticker":{"id":"2733"}},"id":"2732","type":"CategoricalAxis"},{"attributes":{"formatter":{"id":"2776"},"minor_tick_line_color":null,"ticker":{"id":"2759"}},"id":"2758","type":"LinearAxis"},{"attributes":{"fill_color":{"value":"#4eb3d3"},"line_color":{"value":"#4eb3d3"},"size":{"units":"screen","value":5},"x":{"field":"year"},"y":{"field":"mean_score_math"}},"id":"2780","type":"Circle"},{"attributes":{"start":0},"id":"2726","type":"DataRange1d"},{"attributes":{"data_source":{"id":"1001"},"glyph":{"id":"2780"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2781"},"selection_glyph":null,"view":{"id":"2783"}},"id":"2782","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#4eb3d3"},"line_alpha":{"value":0.1},"line_color":{"value":"#4eb3d3"},"size":{"units":"screen","value":5},"x":{"field":"year"},"y":{"field":"mean_score_math"}},"id":"2781","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#084081"},"line_alpha":{"value":0.1},"line_color":{"value":"#084081"},"size":{"units":"screen","value":5},"x":{"field":"year"},"y":{"field":"mean_score_ela"}},"id":"2801","type":"Circle"},{"attributes":{"callback":null,"renderers":[{"id":"2789"}],"tooltips":[["Year","@year"],["ELA Score","@mean_score_ela{1.1} %"]]},"id":"2804","type":"HoverTool"},{"attributes":{},"id":"2754","type":"LinearScale"},{"attributes":{},"id":"2774","type":"BasicTickFormatter"},{"attributes":{},"id":"2728","type":"CategoricalScale"},{"attributes":{},"id":"2756","type":"LinearScale"},{"attributes":{"callback":null,"renderers":[{"id":"2770"}],"tooltips":[["Year","@year"],["Math Score","@mean_score_math{1.1} %"]]},"id":"2784","type":"HoverTool"},{"attributes":{},"id":"2730","type":"LinearScale"},{"attributes":{},"id":"3668","type":"UnionRenderers"},{"attributes":{"axis":{"id":"2732"},"grid_line_color":null,"ticker":null},"id":"2734","type":"Grid"},{"attributes":{"line_color":"#4eb3d3","line_width":2,"x":{"field":"year"},"y":{"field":"mean_score_math"}},"id":"2768","type":"Line"},{"attributes":{"data_source":{"id":"1001"},"glyph":{"id":"2800"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2801"},"selection_glyph":null,"view":{"id":"2803"}},"id":"2802","type":"GlyphRenderer"},{"attributes":{"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2741","type":"VBar"},{"attributes":{},"id":"2759","type":"BasicTicker"},{"attributes":{"label":{"value":"ELA Score"},"renderers":[{"id":"2789"}]},"id":"2798","type":"LegendItem"},{"attributes":{"factors":[["Bronx","Math Score"],["Bronx","ELA Score"],["Brooklyn","Math Score"],["Brooklyn","ELA Score"],["Manhattan","Math Score"],["Manhattan","ELA Score"],["Queens","Math Score"],["Queens","ELA Score"],["Staten Island","Math Score"],["Staten Island","ELA Score"]],"range_padding":0.1},"id":"2721","type":"FactorRange"},{"attributes":{"source":{"id":"1001"}},"id":"2783","type":"CDSView"},{"attributes":{"data_source":{"id":"2720"},"glyph":{"id":"2741"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2742"},"selection_glyph":null,"view":{"id":"2744"}},"id":"2743","type":"GlyphRenderer"},{"attributes":{},"id":"2733","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"2758"},"grid_line_color":null,"ticker":null},"id":"2761","type":"Grid"},{"attributes":{"line_alpha":0.1,"line_color":"#4eb3d3","line_width":2,"x":{"field":"year"},"y":{"field":"mean_score_math"}},"id":"2769","type":"Line"},{"attributes":{},"id":"1618","type":"UnionRenderers"},{"attributes":{"axis_label":"Score","formatter":{"id":"2774"},"minor_tick_line_color":null,"ticker":{"id":"2763"}},"id":"2762","type":"LinearAxis"},{"attributes":{"data_source":{"id":"1001"},"glyph":{"id":"2768"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2769"},"selection_glyph":null,"view":{"id":"2771"}},"id":"2770","type":"GlyphRenderer"},{"attributes":{"line_color":"#084081","line_width":2,"x":{"field":"year"},"y":{"field":"mean_score_ela"}},"id":"2787","type":"Line"},{"attributes":{},"id":"2763","type":"BasicTicker"},{"attributes":{"formatter":{"id":"3665"},"major_tick_line_color":null,"minor_tick_line_color":null,"ticker":{"id":"2736"}},"id":"2735","type":"LinearAxis"},{"attributes":{"axis":{"id":"2762"},"dimension":1,"ticker":null},"id":"2765","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"colors"},"line_alpha":{"value":0.1},"line_color":{"field":"colors"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"2742","type":"VBar"},{"attributes":{},"id":"2736","type":"BasicTicker"},{"attributes":{},"id":"3665","type":"BasicTickFormatter"},{"attributes":{},"id":"3667","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1619","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2745"}]},"id":"2739","type":"Toolbar"},{"attributes":{"source":{"id":"1001"}},"id":"2771","type":"CDSView"},{"attributes":{"source":{"id":"2720"}},"id":"2744","type":"CDSView"},{"attributes":{},"id":"2776","type":"BasicTickFormatter"},{"attributes":{},"id":"3669","type":"Selection"},{"attributes":{},"id":"2750","type":"DataRange1d"},{"attributes":{"below":[{"id":"2758"}],"center":[{"id":"2761"},{"id":"2765"},{"id":"2777"}],"left":[{"id":"2762"}],"outline_line_color":null,"plot_height":400,"renderers":[{"id":"2770"},{"id":"2782"},{"id":"2789"},{"id":"2802"}],"title":{"id":"2748"},"toolbar":{"id":"2766"},"toolbar_location":null,"x_range":{"id":"2750"},"x_scale":{"id":"2754"},"y_range":{"id":"2752"},"y_scale":{"id":"2756"}},"id":"2747","subtype":"Figure","type":"Plot"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2784"},{"id":"2804"}]},"id":"2766","type":"Toolbar"},{"attributes":{"line_alpha":0.1,"line_color":"#084081","line_width":2,"x":{"field":"year"},"y":{"field":"mean_score_ela"}},"id":"2788","type":"Line"},{"attributes":{"axis":{"id":"2735"},"dimension":1,"ticker":null},"id":"2738","type":"Grid"},{"attributes":{"data_source":{"id":"1001"},"glyph":{"id":"2787"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2788"},"selection_glyph":null,"view":{"id":"2790"}},"id":"2789","type":"GlyphRenderer"},{"attributes":{"items":[{"id":"2778"},{"id":"2798"}],"location":"top_left","orientation":"horizontal"},"id":"2777","type":"Legend"},{"attributes":{"align":"center","text":"Mean Scores","text_font_size":{"value":"14pt"}},"id":"2723","type":"Title"},{"attributes":{"data":{"absense_rate":[8.054112903225807,7.772642487046641,7.870227272727267,7.275239234449752,7.56929245283019,6.906813953488378,7.147687074829938,7.599057017543867,7.129418103448274,6.907002141327627,7.185631691648826,7.442021276595747,7.455723404255314],"asian_rate":[10.473209549071615,10.75435897435898,10.90775,10.927990430622016,10.974528301886794,11.127674418604654,11.157596371882088,11.118201754385966,11.16551724137931,11.38843683083512,11.580728051391864,11.670000000000012,11.821276595744685],"black_rate":[33.87241379310342,33.49692307692305,33.217999999999996,32.743540669856436,32.29221698113206,32.316744186046506,32.49455782312927,32.58837719298248,31.807974137931023,31.009207708779456,30.34218415417555,29.905531914893633,29.422765957446813],"disabilities_rate":[13.476392572944295,15.029999999999992,16.324250000000003,16.870813397129172,16.49127358490566,17.55372093023255,18.328571428571436,19.835745614035087,20.656465517241383,21.45203426124197,21.936402569593145,22.38170212765959,22.256595744680858],"district":[15.912466843501326,15.838461538461539,15.8225,15.669856459330143,15.716981132075471,15.706976744186047,15.718820861678005,15.846491228070175,15.866379310344827,15.862955032119915,15.862955032119915,15.827659574468084,15.827659574468084],"diversity_index":[47.74795384615382,47.681372307692314,47.65883499999998,47.81046315789467,47.378351415094365,47.35201930232559,47.503910430839,47.579940131578965,48.06546422413794,48.533277301927164,49.161472805139184,49.41768574468082,49.765311914893616],"ell_rate":[9.933879781420758,12.079895561357704,10.652020202020209,12.746715328467149,13.031100478468888,12.415581395348838,11.927891156462584,11.956359649122799,11.916163793103461,11.686509635974307,12.36145610278373,12.583404255319143,12.516595744680867],"female_rate":[50.140848806366016,50.16025641025641,49.991249999999994,49.934928229665076,49.80566037735848,49.83953488372093,49.829251700680246,49.62763157894737,49.408836206896545,49.276017130620964,49.19036402569593,49.2304255319149,49.13340425531914],"hispanic_rate":[41.0275862068966,41.47384615384619,41.92449999999999,41.78540669856461,42.39433962264153,42.23255813953487,42.08321995464853,42.097587719298296,42.34784482758621,42.503211991434654,42.665738758030024,42.89234042553188,43.202765957446815],"male_rate":[49.859151193633984,49.83974358974358,50.008750000000006,50.06555023923443,50.19481132075473,50.1606976744186,50.170748299319754,50.37258771929825,50.59116379310346,50.72398286937903,50.80985010706639,50.76765957446808,50.86680851063829],"mean_score_ela":[222.1908955223883,224.371629213483,227.64482288828341,236.54104278074848,216.04578005115062,215.3478426395939,217.7731343283581,197.2175059952038,199.26091314031177,201.16072210065641,210.0125813449024,213.4273318872019,218.78211206896566],"mean_score_math":[224.50044642857137,234.19145658263315,242.97038043478275,250.1205333333333,231.78337595907922,233.855583756345,236.25348258706455,198.00119904076737,200.83129175946544,201.8346827133479,203.481344902386,202.6125813449023,207.00140086206898],"other_rate":[0.8445623342175075,0.7161538461538455,0.7365000000000008,1.1112440191387571,1.0075471698113223,0.9565116279069779,1.07641723356009,1.317324561403508,1.6058189655172401,1.8327623126338344,2.1169164882227,2.236382978723403,2.442978723404257],"poverty_rate":[66.34636604774533,66.51048717948719,66.62570000000002,75.99736842105271,76.98396226415102,82.95441860465118,82.15034013605448,82.10175438596494,74.93706896551723,73.82098501070665,73.82119914346902,77.9123404255319,75.65382978723407],"presence_rate":[91.25524193548387,91.65883419689114,91.47174242424249,92.00983253588517,91.75000000000007,92.21762790697679,91.99154195011346,91.49063596491229,91.99903017241387,92.20119914346913,91.86453961456101,91.5902553191489,91.74042553191481],"release_rate":[0.5096236559139784,0.42935233160621783,0.5047474747474748,0.5355023923444973,0.5415566037735849,0.7278604651162787,0.7007709750566894,0.735219298245614,0.7046120689655172,0.7201713062098503,0.7834903640256958,0.8048723404255318,0.6458085106382975],"total_enrollment":[677.0053050397878,659.1410256410256,651.175,640.0215311004785,643.3325471698113,648.0720930232558,640.7709750566894,628.8618421052631,620.176724137931,617.8629550321199,623.4668094218415,621.4106382978723,623.8872340425532],"total_schooldays":[185.8252688172043,184.88860103626942,181.78787878787878,178.88755980861245,180.88915094339623,182.16976744186047,177.85034013605443,179.66228070175438,181.82758620689654,177.99571734475376,176.13490364025697,178.11063829787233,178.08085106382978],"white_rate":[13.78222811671088,13.558717948717952,13.21325000000001,13.431818181818183,13.331367924528296,13.363953488372095,13.185714285714283,12.87697368421053,13.074137931034484,13.268308351177733,13.291862955032132,13.293829787234044,13.109361702127657],"year":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018]},"selected":{"id":"1619"},"selection_policy":{"id":"1618"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"2732"}],"center":[{"id":"2734"},{"id":"2738"}],"left":[{"id":"2735"}],"plot_height":400,"renderers":[{"id":"2743"}],"title":{"id":"2723"},"toolbar":{"id":"2739"},"toolbar_location":null,"x_range":{"id":"2721"},"x_scale":{"id":"2728"},"y_range":{"id":"2726"},"y_scale":{"id":"2730"}},"id":"2722","subtype":"Figure","type":"Plot"},{"attributes":{"fill_color":{"value":"#084081"},"line_color":{"value":"#084081"},"size":{"units":"screen","value":5},"x":{"field":"year"},"y":{"field":"mean_score_ela"}},"id":"2800","type":"Circle"},{"attributes":{"data":{"colors":["#7bccc4","#7bccc4","#4eb3d3","#4eb3d3","#2b8cbe","#2b8cbe","#0868ac","#0868ac","#084081","#084081"],"counts":[190.5061403508772,204.66973684210524,205.12985611510797,216.76007194244602,217.9271276595745,227.5255319148936,216.49362745098043,227.41372549019601,216.6933333333333,231.2866666666667],"x":[["Bronx","Math Score"],["Bronx","ELA Score"],["Brooklyn","Math Score"],["Brooklyn","ELA Score"],["Manhattan","Math Score"],["Manhattan","ELA Score"],["Queens","Math Score"],["Queens","ELA Score"],["Staten Island","Math Score"],["Staten Island","ELA Score"]]},"selected":{"id":"3669"},"selection_policy":{"id":"3668"}},"id":"2720","type":"ColumnDataSource"},{"attributes":{"source":{"id":"1001"}},"id":"2790","type":"CDSView"},{"attributes":{"label":{"value":"Math Score"},"renderers":[{"id":"2770"}]},"id":"2778","type":"LegendItem"},{"attributes":{"align":"center","text":"Mean Score Trend across all Boroughs","text_font_size":{"value":"14pt"}},"id":"2748","type":"Title"},{"attributes":{"source":{"id":"1001"}},"id":"2803","type":"CDSView"},{"attributes":{"callback":null,"tooltips":[["Score","@counts{1}"]]},"id":"2745","type":"HoverTool"},{"attributes":{"end":300,"start":150},"id":"2752","type":"Range1d"}],"root_ids":["11984"]},"title":"Bokeh Application","version":"2.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('15152').textContent;
+                  var render_items = [{"docid":"2014f7fe-cc26-45b0-8f15-24c8e71e1d8b","root_ids":["11984"],"roots":{"11984":"b109ce89-3868-4064-87c2-b7cd9be6c27a"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
