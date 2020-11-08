@@ -1,4 +1,4 @@
-## nyc-public-schools.github.io
+## Social Data Project
 
 This repo consists of the html files used for our github webpage made in the course 02806 Social Data Analysis and Visualization on DTU in the spring 2020.
 
