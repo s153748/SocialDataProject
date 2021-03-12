@@ -1,6 +1,6 @@
-## Social Data and Visualization Project
+### Social Data and Visualization Project
 
-This repo consists of the project made in the class 02806 Social Data Analysis and Visualization on DTU in the Spring 2020.
+This repo consists of the project made in the class 02806 Social Data Analysis and Visualization at DTU in the Spring 2020.
 
 In this project, we analysed the schools of New York city and visualized our findings on a [webpage](https://nyc-public-schools.github.io). The code can be seen in our [explainer notebook](https://nbviewer.jupyter.org/github/s153748/SocialDataProject/blob/master/Python%20Notebooks/Explainer%20notebook.ipynb). 
 
